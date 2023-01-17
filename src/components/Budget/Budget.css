@@ -1,0 +1,98 @@
+.budget__container {
+    margin: 2rem 3rem;
+}
+
+.budget {
+    display: flex;
+    align-items: center;
+}
+
+.budget__cards {
+    display: flex;
+    width: 100%;
+}
+
+.budget__card {
+    box-shadow: rgb(0 0 0 / 26%) 0px 2px 8px;
+    padding: 1rem;
+    margin: 1rem 2rem 1rem 1rem;
+    width: 400px;
+    height: 180px;
+    background-color: white;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 8rem;
+}
+
+.website {
+    font-size: 1.3rem;
+}
+
+.name {
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+.budget__opacity {
+    color: black;
+    margin-left: 2rem;
+}
+
+.budgett, .profit {
+    margin-top: 0.5rem;
+    color: lightgray;
+    font-size: 15px;
+}
+
+
+.actualhours {
+    font-size: 12px;
+}
+
+.hours__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.hours {
+    font-size: 12px;
+}
+
+.budget__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.budget__button {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+    border: 1px solid #0d9488;
+    border-radius: 3px;
+    background-color: #0d9488;
+    color: white;
+}
+
+.budget__button__download {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+    border: 1px solid #0d9488;
+    border-radius: 3px;
+    color: #0d9488;
+    background-color: white;
+}
+
+.budget__status {
+    margin-left:1rem;
+}
